@@ -1,6 +1,7 @@
-package com.app.searchbl;
+package com.app.searchbl.model;
 
 import java.util.List;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -20,10 +21,10 @@ public class Suggestion {
     private List<User> user = null;
     @SerializedName("history")
     @Expose
-    private List<Object> history = null;
+    private List<Product> history = null;
     @SerializedName("keyword")
     @Expose
-    private List<Object> keyword = null;
+    private List<String> keyword = null;
     @SerializedName("product")
     @Expose
     private List<Product> product = null;
@@ -63,19 +64,19 @@ public class Suggestion {
         this.user = user;
     }
 
-    public List<Object> getHistory() {
+    public List<Product> getHistory() {
         return history;
     }
 
-    public void setHistory(List<Object> history) {
+    public void setHistory(List<Product> history) {
         this.history = history;
     }
 
-    public List<Object> getKeyword() {
+    public List<String> getKeyword() {
         return keyword;
     }
 
-    public void setKeyword(List<Object> keyword) {
+    public void setKeyword(List<String> keyword) {
         this.keyword = keyword;
     }
 

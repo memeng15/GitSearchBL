@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SearchBL.iml" filepath="$PROJECT_DIR$/SearchBL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GitSearchBL.iml" filepath="$PROJECT_DIR$/GitSearchBL.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
